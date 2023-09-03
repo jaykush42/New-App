@@ -3,13 +3,15 @@ import News from './News';
 import './NewsApi.css'
 
 function NewsApi() { 
-    const apiKey = '97aabfb35bb74a37bdfd13238bee1470';
+   // const apiKey = '97aabfb35bb74a37bdfd13238bee1470';
+    const apiKey = '352da4730eafc81f269d341e86cc5892';
+    
     
     const [newsList, setNewsList] = useState([]);
     const [query, setQuery] = useState('India');
     
-   // const apiURL = `https://newsapi.org/v2/everything?q=tesla&from=2023-08-03&sortBy=publishedAt&apiKey=${apiKey}`
-    const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-08-03&sortBy=publishedAt&apiKey=${apiKey}`;
+ //  const apiUrl = `https://openapi.programming-hero.com/api/news/categories`;
+    const apiUrl = `https://gnews.io/api/v4/search?q=${query}&lang=en&country=us&max=10&apikey=${apiKey}`;
   
     const queryInputRef = useRef(null);
 
