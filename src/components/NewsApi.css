@@ -1,0 +1,36 @@
+.news-app{
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 40px;
+}
+
+.news-block{
+   display: grid;
+   grid-template-columns: repeat(3, 30%);
+   justify-content:space-between; 
+   row-gap: 30px;;
+}
+
+
+.query-inp{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+    border: 2px solid rgb(14, 14, 14);
+}
+
+.btn-submit{
+    margin-bottom: 20px;
+    padding: 20px 50px;
+    background-color: rgb(203, 206, 213);
+    font-size: larger;
+    font-weight: bold;
+}
+ 
+h1{
+    font-family: monospace;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
