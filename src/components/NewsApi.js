@@ -8,7 +8,8 @@ function NewsApi() {
     const [newsList, setNewsList] = useState([]);
     const [query, setQuery] = useState('India');
     
-    const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-08-02&sortBy=publishedAt&apiKey=${apiKey}`;
+   // const apiURL = `https://newsapi.org/v2/everything?q=tesla&from=2023-08-03&sortBy=publishedAt&apiKey=${apiKey}`
+    const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-08-03&sortBy=publishedAt&apiKey=${apiKey}`;
   
     const queryInputRef = useRef(null);
 
