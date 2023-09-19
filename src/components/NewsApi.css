@@ -2,6 +2,7 @@
     width: 80%;
     margin-inline: auto;
     margin-block: 40px;
+    
 }
 
 .news-block{
@@ -33,6 +34,7 @@ h1{
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: left;
+    color: rgb(17, 22, 108);
 }
 
 /* ================== Media Query(Medium Devices) ============== */

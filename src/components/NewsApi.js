@@ -41,7 +41,7 @@ function NewsApi() {
     <div className='news-app'> 
     <h1> News Daily</h1>
       <form onSubmit={handleSubmit}>
-      <input className='query-inp' type="text" ref = {queryInputRef} />
+      <input className='query-inp' type="text" ref = {queryInputRef} placeholder='Search here' />
       <input className='btn-submit' onClick={handleSubmit} type='submit' value="Submit" />
       </form>
     <div className='news-block'>
