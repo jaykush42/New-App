@@ -8,7 +8,7 @@
    display: grid;
    grid-template-columns: repeat(3, 30%);
    justify-content:space-between; 
-   row-gap: 30px;;
+   row-gap: 30px;
 }
 
 
@@ -33,4 +33,30 @@ h1{
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: left;
+}
+
+/* ================== Media Query(Medium Devices) ============== */
+
+@media screen and (max-width: 1024px) {
+
+    .news-block{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        justify-content:space-between; 
+        row-gap: 30px;
+     }
+    
+}
+
+/* ================== Media Query(Small Devices) ============== */
+
+@media screen and (max-width: 600px) {
+
+    .news-block{
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        justify-content:space-between; 
+        row-gap: 30px;
+     }
+    
 }
