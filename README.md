@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# News Daily
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+News Daily is a React application that fetches and displays the latest news articles based on a user's search query. The app uses the GNews API to fetch the news articles.
 
-## Available Scripts
+## Live Now
+**URL:** https://jaykush42.github.io/News-App/
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search News:** Users can search for news articles by entering a keyword.
+- **Display News:** The app displays a list of news articles with titles, descriptions, and links to the full articles.
+- **Responsive Design:** The UI is designed to be responsive and works well on various devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Frontend library for building user interfaces.
+- **CSS:** Styling the application.
+- **GNews API:** API used for fetching news articles.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (which includes npm)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/yourusername/news-daily.git
+   cd news-daily
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Create a .env file in the root directory and add your GNews API key:**
+   ```bash
+   REACT_APP_API_KEY=your_api_key_here
+4. **Start the development server**
+   ```bash
+   npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  **The app will be available at http://localhost:3000.**
+  
+## Usage
+- **Enter a search query:** Type a keyword in the search bar and press the "Submit" button or hit "Enter".
+- **View the news articles:** The app will display a list of news articles related to the search query.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+- Fork the repository.
+- Create your feature branch (git checkout -b feature/YourFeature).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/YourFeature).
+- Open a pull request.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
+Thanks to GNews for providing the news API.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
