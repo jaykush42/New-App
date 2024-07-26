@@ -3,10 +3,8 @@ import News from './News';
 import './NewsApi.css'
 
 function NewsApi() { 
-
-   // const apiKey = '97aabfb35bb74a37bdfd13238bee1470';
    
-    const apiKey = '352da4730eafc81f269d341e86cc5892';
+    const apiKey = 'Your Api Key';
     
     
     const [newsList, setNewsList] = useState([]);
